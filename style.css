@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.left-links {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-bottom: 68px;
+}
+
+.left {
+    padding-top: 48px;
+    width: 600px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+.text {
+   font-size: 18px;
+   color: #e5e7eb;
+   padding: 4px 200px;
+   display: flex;
+   width: 400px;
+}
+
+#signup {
+    margin: 4px 200px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: 0;
+    padding: 4px 18px 4px 18px;
+    color: white;
+}
+
+.container {
+    padding: 88px;
+    background-color: grey;
+    color: white;
+    margin-right: 200px;
+    margin-top: 48px;
+    width: 220px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+#firstImg,
+#secondImg,
+#thirdImg,
+#fourthImg {
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    border-color: #3882f6;
+    border-style:solid;
+}
+
+.second {
+    padding: 0 240px;
+}
+
+#subtext {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 70px;
+    width: 160px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    padding: 90px 260px 40px;
+}
+
+.para {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+h3 {
+    text-align: end;
+    padding-right: 45px;
+}
+
+.innerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 30px 80px;
+    border-radius: 6px;
+    gap: 180px;
+}
+
+.blueContainer .blue-container-header {
+    font-size: 18.72px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.blueContainer {
+    color: #f9faf8;
+}
+
+.innerBox button {
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-width: 2px;
+    border-radius: 4px;
+    border-style:solid;
+    padding: 3px 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
+
+
